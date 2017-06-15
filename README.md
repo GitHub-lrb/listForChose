@@ -2,7 +2,9 @@
 
 chose a item from list that included in modal View
 
+
 ModalOfList.PropTypes = {
+
     leftButton: React.PropTypes.string, //左侧按钮文本
     rightButton: React.PropTypes.string,//右侧按钮文本
     buttonStyle: React.PropTypes.object,//按钮风格
