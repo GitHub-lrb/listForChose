@@ -21,9 +21,10 @@ var styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
-    headerTitle: {
+    headerTitleView: {
         flex: 1,
-        textAlign: 'center'
+        justifyContent: 'center',
+        alignItems: 'center'
     },
     cell: {
         width: window.width,

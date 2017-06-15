@@ -61,7 +61,9 @@ export default class ModalOfList extends Component {
                 <View style={styles.header}>
                     <TouchableOpacity style={[styles.button, this.props.buttonStyle]}
                                       onPress={this._leftButton}><Text>{this.props.leftButton}</Text></TouchableOpacity>
-                    <Text style={styles.headerTitle}>{this.props.title}</Text>
+
+                    <View style={styles.headerTitleView}><Text>{this.props.title}</Text></View>
+
                     <TouchableOpacity style={[styles.button, this.props.buttonStyle]}
                                       onPress={this._rightButton}><Text>{this.props.rightButton}</Text></TouchableOpacity>
                 </View>
